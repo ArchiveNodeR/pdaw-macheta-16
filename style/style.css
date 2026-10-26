@@ -1,0 +1,84 @@
+.container {
+    border: 0;
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background: #0B2530;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    opacity: 1;
+    padding: 0 4rem;
+}
+
+
+
+.navbar {
+    margin-top: 10px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    width: 100%;
+    height: 76px;
+    top: 36px;
+    opacity: 1;
+    border-width: 1px;
+}
+
+
+.logo {
+    font-weight: Bold;
+    color: black;
+    padding-left: 4rem;
+    padding-right: 0rem;
+}
+
+.logo span {
+    color: #0E7490;
+    font-weight: bold;
+
+}
+
+.nav-links a {
+    font-weight: Bold;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0E7490;
+}
+
+.button {
+    font-weight: Bold;
+    background: #0E7490;
+    width: 115px;
+    height: 38px;
+    top: 55px;
+    left: 805px;
+    opacity: 1;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 14px;
+    margin-right: -70px;
+}
+
+.button:hover {
+    background-color: #135d72;
+}
+
+.hero {
+    width: 960;
+    height: 599;
+    top: 112px;
+    opacity: 1;
+}
