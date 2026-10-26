@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-top-bar {
+.top-bar {
     background: #0B2530;
     color: white;
     display: flex;
@@ -12,7 +12,13 @@ top-bar {
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    opacity: 1;
 }
+
+
 
 .navbar {
     margin-top: 10px;
@@ -21,14 +27,31 @@ top-bar {
     align-items: center;
     justify-content: space-between;
     font-size: 24px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 76px;
+    top: 36px;
+    opacity: 1;
+    border-width: 1px;
 }
 
+
 .logo {
+    font-weight: Bold;
+    color: black;
     padding-left: 40px;
 
 }
 
+.logo span {
+    color: #0E7490;
+    font-weight: bold;
+
+}
+
 .nav-links a {
+    font-weight: Bold;
     margin-left: 20px;
     text-decoration: none;
     font-size: 15px;
@@ -37,6 +60,7 @@ top-bar {
 }
 
 .button {
+    font-weight: Bold;
     background: #0E7490;
     width: 115px;
     height: 38px;
@@ -46,9 +70,17 @@ top-bar {
     color: white;
     border: none;
     border-radius: 14px;
-    font-size: 14px;    
+    font-size: 14px;
+    margin-right: 40px;
 }
 
 .button:hover {
     background-color: #135d72;
+}
+
+.hero {
+    width: 960;
+    height: 599;
+    top: 112px;
+    opacity: 1;
 }
