@@ -255,3 +255,275 @@
     color: #64748b;
     margin-top: 2px;
 }
+
+.features-section {
+    position: relative;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+/* Header & Titlu */
+.features-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.header-text {
+    text-align: center;
+    max-width: 600px;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: 800;
+    color: #0E7490;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F172A;
+    margin: 0 0 10px 0;
+}
+
+.section-desc {
+    font-size: 15px;
+    color: #64748B;
+    margin: 0;
+}
+
+.btn-call {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #0E7490;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(14, 116, 144, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-call:hover {
+    background-color: #0c6178;
+    transform: translateY(-2px);
+}
+
+.btn-call .icon-phone {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-line {
+    height: 4px;
+    background-color: #0E7490;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-number {
+    font-size: 36px;
+    font-weight: 800;
+    color: #BAE6FD;
+    line-height: 1;
+}
+
+.card-icon {
+    font-size: 24px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 0 0 8px 0;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: #64748B;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* --- SERVICES SECTION --- */
+.services-section {
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.services-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
+.services-header .subtitle {
+    font-size: 12px;
+    font-weight: 800;
+    color: #0E7490;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.services-header .section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F172A;
+    margin: 0 0 10px 0;
+}
+
+.services-header .section-desc {
+    font-size: 15px;
+    color: #64748B;
+    margin: 0;
+}
+
+/* Grilă 2x2 cu layout orizontal pentru carduri */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Card orizontal */
+.service-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row; /* Pune imaginea și textul una lângă alta */
+    border: 1px solid #f1f5f9;
+}
+
+/* Imaginea în partea stângă a cardului */
+.service-image-wrapper {
+    position: relative;
+    width: 45%;
+    min-width: 180px;
+    flex-shrink: 0;
+}
+
+.service-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Eticheta (TOP, -17%, NOU) */
+.badge-tag {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #0D9488;
+    color: white;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+/* Conținutul text în partea dreaptă */
+.service-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.rating {
+    font-size: 11px;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0F172A;
+    margin: 0 0 6px 0;
+}
+
+.service-desc {
+    font-size: 13px;
+    color: #64748B;
+    line-height: 1.4;
+    margin: 0 0 16px 0;
+}
+
+/* Partea de jos (Preț + Detalii) */
+.service-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.service-price {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0F172A;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.old-price {
+    font-size: 11px;
+    color: #94A3B8;
+    text-decoration: line-through;
+}
+
+.service-link {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0E7490;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.service-link:hover {
+    transform: translateX(3px);
+}
