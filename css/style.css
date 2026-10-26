@@ -4,6 +4,7 @@
     max-width: 960px;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: Kanit;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
 }
 
 .nav-links {
+    font-family: Kanit;
     display: flex;
     align-items: center;
 }
@@ -66,6 +68,7 @@ body {
 }
 
 .button {
+    font-family: Kanit;
     font-weight: bold;
     background: #0E7490;
     width: 115px;
