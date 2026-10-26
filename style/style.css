@@ -1,0 +1,32 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+top-bar {
+    background: #0B2530;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav,
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
